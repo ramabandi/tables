@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration  </title>
+</head>
+<body>
+    <form>
+        <h1>Enhance the Registration Form </h1>
+
+        <label for="Fname">First Name</label>
+        <input type="text" placeholder="Enter Your First Name"/ id="Fname" name="Fname" required><br/><br/>
+        <label for="Lname" >Last Name</label>
+        <input type="text" placeholder="Enter Your Last Name"/ id="Lname" name="Lname"><br/><br/>
+
+      
+
+        <label for="Email" > Email</label>
+        <input type="Email" placeholder="Enter Your Email" id="Email" name="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/><br/><br/>
+
+
+        <label for="password">password</label>
+        <input type="password" placeholder="Enter Your password" id="password" name="password"required minlength="8"/><br/><br/>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+
+        <label for="Hobbies">Hobbies:</label>
+        <input type="checkbox" id="Reading" name="Hobbies" value="Reading">
+        <label for="Reading">Reading</label>
+        <input type="checkbox" id="Traveling" name="Hobbies" value="Traveling">
+        <label for="Traveling">Traveling</label> 
+         <input type="checkbox" id="Sports" name="Hobbies" value="Sports">
+         <label for="Sports">Sports</label><br/><br/>
+
+         <label for="Country">Country:</label>
+         <select>
+             <option value="Country">Country</option>
+             <option value="India">India</option>
+             <option value="USA">Italy</option>
+             <option value="UK">Aus</option>
+             <option value="Paries">UAE</option>
+         </select><br/><br/>
+
+         <label for="Comments">Comments:</label>
+         <textarea id="Comments"name="comments" rows="3" cols="30" placeholder="Text Here"></textarea><br><br>
+
+         <input type="submit" value="Submit" >
+         
+    </form>
+<br/><br/>
+ 
+    <h2>Embed an Iframe</h2>
+    <legend><b>YouTube Video</b></legend>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kkw1YsuuczI?si=XNea4K2yGJBS3mbr&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/><br/>
+    <legend><b>Google Maps</b></legend>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.1985006907234!2d78.38741457525502!3d17.49803529960803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1729603005693!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
